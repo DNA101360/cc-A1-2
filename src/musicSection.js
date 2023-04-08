@@ -26,7 +26,7 @@ function MusicSection({ homeData, isLoading, onUnsubscribe  }) {
                             handleUnsubscribe(`${music.title}-${music.artist}`)
                           }
                         >
-                          Unsubscribe
+                          Remove
                         </button>
                     </div>
                 ))}
